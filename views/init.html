@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Налаштування програми</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <h1>Налаштування програми</h1>
+
+    <form id="settings-form">
+      <div class="input_init">
+        <label for="login">Логін:</label>
+        <input
+          class="input_init_fild"
+          type="text"
+          id="login"
+          name="login"
+          required
+        />
+      </div>
+      <div class="input_init">
+        <label for="repoUrl">URL репозиторію:</label>
+        <input
+          class="input_init_fild"
+          type="text"
+          id="repoUrl"
+          name="repoUrl"
+          required
+        />
+      </div>
+      <div class="input_init">
+        <label for="repoToken">Токен репозиторію:</label>
+        <input
+          class="input_init_fild"
+          type="password"
+          id="repoToken"
+          name="repoToken"
+          required
+        />
+      </div>
+      <div class="input_init">
+        <label for="email">Пошта:</label>
+        <input
+          class="input_init_fild"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+      Чи цей вебдодаток вже налаштований?
+      <div class="radio-group">
+       <div class="radio-answer">
+        <input type="radio" id="yes" name="answer" value="yes">
+        <label for="yes">Так</label>
+      </div>
+      <div class="radio-answer">
+        <input type="radio" id="no" name="answer" value="no">
+        <label for="no">Ні</label>
+      </div>
+    </div>
+      <button class="button_submit" type="submit">Зберегти</button>
+    </form>
+
+    <script src="./js/render.js"></script>
+  </body>
+</html>

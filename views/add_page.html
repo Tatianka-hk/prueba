@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Редагування новини</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="butt_auth-container mb">
+        <button class="butt_auth" onclick="window.location.href = 'pages.html'">Назад</button>
+      </div>
+    </header>
+    <h1>Додавання сторінки</h1>
+
+    <div id="add-page-form">
+    <div class="input_init">
+      <label for="title">Ім'я:</label>
+      <input class="input_init_fild ap" type="text" id="title" name="title" required />
+    </div>
+    <div class="input_init textarea_ap">
+      <label for="text">Текст:</label>
+      <textarea  class="input_init_fild textarea_ap_field" type="text" id="text" name="text" ></textarea>
+    </div>
+      <button class="button_submit"  onclick="addPage()">Зберегти</button>
+    </div>
+    <script src="./js/pages.js"></script>
+  </body>
+</html>

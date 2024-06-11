@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Налаштування програми</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <h1>Налаштування програми</h1>
+
+    <form id="edit-settings-form">
+    <div class="input_init">
+      <label for="login">Логін:</label>
+      <input class="input_init_fild" type="text" id="login" name="login" required />
+    </div>
+    <div class="input_init">
+      <label for="logo">Логотип:</label>
+      <input  class="input_init_fild" type="file" id="logo" name="logo" accept="image/*" />
+    </div>
+    <div class="input_init">
+      <label for="repoUrl">URL репозиторію:</label>
+      <input class="input_init_fild" type="text" id="repoUrl" name="repoUrl" required />
+    </div> 
+    <div class="input_init"> 
+      <label for="repoToken">Токен репозиторію:</label>
+      <input class="input_init_fild" type="password" id="repoToken" name="repoToken" required />
+    </div>
+    <div class="input_init">
+      <label for="email">Пошта:</label>
+      <input class="input_init_fild" type="email" id="email" name="email" required />
+    </div>
+      <button class="button_submit" type="submit">Зберегти</button>
+    </form>
+
+    <script src="./js/render.js"></script>
+  </body>
+</html>

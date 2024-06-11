@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Додавання учасника</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Додавання учасника</h1>
+
+    <form id="settings-form">
+    <div class="input_init">
+      <label for="name">Ім'я:</label>
+      <input class="input_init_fild" type="text" id="name" name="v" required />
+    </div>
+    <div class="input_init">
+      <label for="surname">Прізвище:</label>
+      <input  class="input_init_fild" type="text" id="surname" name="surname" accept="image/*" />
+    </div>
+    <div class="input_init">
+      <label for="last">По батькові:</label>
+      <input class="input_init_fild" type="text" id="last" name="last" required />
+    </div> 
+    <div class="input_init"> 
+      <label for="themes">Наукові теми:</label>
+      <input class="input_init_fild" type="text" id="themes" name="themes" required />
+    </div>
+    <div class="input_init">
+      <label for="email">Пошта:</label>
+      <input class="input_init_fild" type="email" id="email" name="email" required />
+    </div>
+      <button onclick="add_member()">Зберегти</button>
+    </form>
+
+    <script src="./render.js"></script>
+  </body>
+</html>

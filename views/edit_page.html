@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Додавання учасника</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="butt_auth-container mb">
+        <button class="butt_auth" onclick="window.location.href = 'home.html'">
+          Назад
+        </button>
+      </div>
+    </header>
+    <h1>Редагування новини</h1>
+
+    <form id="edit-page-form">
+      <div class="input_init">
+        <label for="title">Заголовок:</label>
+        <input
+          class="input_init_fild"
+          type="text"
+          id="title"
+          name="title"
+          required
+        />
+      </div>
+      <div class="input_init textarea_news">
+        <label for="text">Текст:</label>
+        <textarea
+          class="input_init_fild textarea_news_field"
+          type="text"
+          id="text"
+          name="text"
+        ></textarea>
+      </div>
+      <button class="button_submit" onclick="editPage()">Зберегти</button>
+    </form>
+
+    <script src="./js/pages.js"></script>
+  </body>
+</html>

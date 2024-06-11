@@ -1,0 +1,141 @@
+:root {
+    --primary-color: #247abf;
+    --secondary-color: #ffffff;
+    --accent-color: #fff323;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #settings-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .radio-answer{
+    display: flex
+  }
+  .forms {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  #add_member-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    justify-content: center;
+    margin-bottom: 5px;
+    display: grid;
+  }
+  .input_init {
+    margin: 1vh;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+  }
+  
+  .input_init_fild {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .button_submit {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .input_init {
+    margin: 1vh;
+    width: 100%;
+    display: grid;
+  }
+  .textarea_news {
+    height: 50vh;
+    align-content: baseline;
+  }
+  
+  .textarea_news_field {
+    width: 150%;
+    height: 500%;
+  }
+  .ap {
+    width: 30vh;
+  }
+  #add-page-form {
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .table_img {
+    width: 5vh;
+  }
+  .textarea_ap_field {
+    width: 120vh;
+    height: 150vh;
+  }
+  .contact-method {
+    display: flex;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid var(--primary-color);
+    border-collapse: collapse;
+    padding: 1vh;
+  }
+  #editmember-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .table-container {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .butt_auth {
+    height: 5vh;
+    width: 15vh;
+    margin-left: auto;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    font-size: 2vh;
+  }
+  .butt_auth-container {
+    display: flex;
+    align-items: center;
+  }
+  .table_buttom {
+    background-color: white;
+    border: none;
+    width: 100%;
+  }
+  
+  .table_header {
+    display: flex;
+    justify-content: center;
+  }
+  

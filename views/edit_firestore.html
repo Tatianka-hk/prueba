@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Налаштування програми</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="butt_auth-container mb">
+      <button class="butt_auth" onclick="window.location.href = 'change_setting.html'">Назад</button>
+    </div>
+    <h1>Налаштування програми</h1>
+
+    <form id="edit-firestore-form" class="forms">
+    <div class="input_init">
+      <label for="login">apiKey:</label>
+      <input class="input_init_fild" type="text" id="apiKey" name="apiKey" required />
+    </div>
+    <div class="input_init">
+      <label for="logo">authDomain:</label>
+      <input  class="input_init_fild" type="text" id="authDomain" name="authDomain" accept="image/*" />
+    </div>
+    <div class="input_init">
+      <label for="repoUrl">projectId:</label>
+      <input class="input_init_fild" type="text" id="projectId" name="projectId" required />
+    </div> 
+    <div class="input_init"> 
+      <label for="repoToken">storageBucket:</label>
+      <input class="input_init_fild" type="text" id="storageBucket" name="storageBucket" required />
+    </div>
+    <div class="input_init">
+      <label for="email">messagingSenderId:</label>
+      <input class="input_init_fild" type="text" id="messagingSenderId" name="messagingSenderId" required />
+    </div>
+    <div class="input_init"> 
+      <label for="repoToken">appId:</label>
+      <input class="input_init_fild" type="text" id="appId" name="appId" required />
+    </div>
+    <div class="input_init">
+      <label for="email">measurementId:</label>
+      <input class="input_init_fild" type="text" id="measurementId" name="measurementId" required />
+    </div>
+      <button class="button_submit" type="submit" onclick="edit_setting()">Зберегти</button>
+    </form>
+
+    <script src="./js/firestore.js"></script>
+  </body>
+</html>
